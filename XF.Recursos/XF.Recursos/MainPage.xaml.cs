@@ -32,5 +32,10 @@ namespace XF.Recursos
         {
             await Navigation.PushAsync(new Estilo.TriggesView());
         }
+
+        private async void btnTemplate_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Theme.ThemeView());
+        }
     }
 }
